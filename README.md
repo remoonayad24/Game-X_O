@@ -1,6 +1,6 @@
-# xo
+# Tic-Tac-Toe Game
 
-A new Flutter project.
+The goal of Tic-Tac-Toe is to be the first player to get three of your marks (either X or O) in a row, column, or diagonal on a 3x3 grid.
 
 ## Getting Started
 
