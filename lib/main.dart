@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:xo/board_screen.dart';
+import 'package:xo/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,10 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowMaterialGrid: false,
-      initialRoute: BoardScreen.routeName,
+      debugShowCheckedModeBanner: false,
+      initialRoute: LoginScreen.routename,
       routes :{
-        BoardScreen.routeName:(context)=> BoardScreen()
+        BoardScreen.routeName:(context)=> BoardScreen(),
+        LoginScreen.routename:(_)=> LoginScreen()
       },
     );
   }
